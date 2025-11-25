@@ -142,5 +142,6 @@ WMI & pywin32: Windows-specific hardware sensor access.
 
 Orchestration: Python subprocess module.
 
-Built with Kashan Khan & Ayushi for the AI Agents Hackathon 2025.
+
+## Created by Kashan Khan & Ayushi for the AI Agents Hackathon 2025.
 
